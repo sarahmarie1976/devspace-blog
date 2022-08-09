@@ -10,6 +10,12 @@ npm run dev
 yarn dev
 ```
 
+##Creating posts
+Create a markdown file in the "posts" folder and name it whatever you want as the slug
+* Add the frontmatter/fields at the top and then the post body. See an example in the "posts" folder of this repo
+
+
+
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
