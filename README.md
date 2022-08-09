@@ -17,7 +17,7 @@ Create a markdown file in the "posts" folder and name it whatever you want as th
 * For category color coding, edit the "Components/CategoryLabel.js" file
 
 ## Caching
-* Husky is used to run a cache script on git commit. Caching is used for the search api route/serverless functio
+* Husky is used to run a cache script on git commit. Caching is used for the search api route/serverless function
 
 
 
