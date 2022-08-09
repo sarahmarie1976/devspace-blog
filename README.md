@@ -20,7 +20,7 @@ Create a markdown file in the "posts" folder and name it whatever you want as th
 * Husky is used to run a cache script on git commit. Caching is used for the search api route/serverless function
 
 
-
+## Info To View and Edit
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
