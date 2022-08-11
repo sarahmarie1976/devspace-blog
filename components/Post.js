@@ -1,6 +1,8 @@
 import Image from 'next/image';
 import Link from 'next/link';
 
+import CategoryLabel from './CategoryLabel';
+
 export default function Post({ post }) {
   return (
     <div className='w-full px-10 py-6 bg-white rounded-lg shadow-md mt-6'>
@@ -11,11 +13,11 @@ export default function Post({ post }) {
         width={600}
         className='mb-4 rounded-lg'
       />
-      <div className='flex justify-between items-center '>
+      <div className='flex justify-between items-center'>
         <span className='font-light text-gray-600'>
           {post.frontmatter.date}
         </span>
-        <div className=''>{post.frontmatter.category}</div>
+        <CategoryLabel>{post.frontmatter.category}</CategoryLabel>
       </div>
 
       <div className='mt-2'>
